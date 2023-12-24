@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@7.x/dist/pixi.min.js"></script>
+  </head>
+  <body>
+
+    <p>Conway's Game Of Life written in JavaScript using Pixi.js</p>
+
+      <canvas id="canvas" width="320" height="320"></canvas>
+
+        <p id="fps">Current FPS:</p>
+
+        <p><button type=button id="start">Start</button></p>
+        <p><button type=button id="regenerate">Regenerate</button></p>
+        <p>
+        <select id="color">
+          <option value="#11d319" selected>Green</option>
+          <option value="red">Red</option>
+          <option value="yellow">Yellow</option>
+        </select>
+        </p>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
